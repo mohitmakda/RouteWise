@@ -16,7 +16,7 @@ const Header = () => {
         </p>
         <ul className={styles.headerLinks}>
           <li>
-            <a href="https://github.com/colbyfayock/next-leaflet-starter" rel="noreferrer">
+            <a href="https://github.com/mohitmakda/RouteWise.git" rel="noreferrer">
               <FaGithub />
             </a>
           </li>

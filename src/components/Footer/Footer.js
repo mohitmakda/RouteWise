@@ -7,7 +7,7 @@ const Footer = ({ ...rest }) => {
     <footer className={styles.footer} {...rest}>
       <Container className={`${styles.footerContainer} ${styles.footerLegal}`}>
         <p>
-          &copy; <a href="https://spacejelly.dev">Routewise</a>, {new Date().getFullYear()}
+          &copy; <a href="https://github.com/mohitmakda/RouteWise.git">Routewise</a>, {new Date().getFullYear()}
         </p>
       </Container>
     </footer>
