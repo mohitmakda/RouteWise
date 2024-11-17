@@ -4,5 +4,17 @@
     "files": [
       "static/chunks/src_components_Map_DynamicMap_js.js"
     ]
+  },
+  "index.js -> @components/Map": {
+    "id": "index.js -> @components/Map",
+    "files": [
+      "static/chunks/src_components_Map_index_js.js"
+    ]
+  },
+  "index.js -> leaflet": {
+    "id": "index.js -> leaflet",
+    "files": [
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_js.js"
+    ]
   }
 }

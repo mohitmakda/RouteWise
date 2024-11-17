@@ -24,3 +24,35 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+/* Custom styles for the marker icon */
+.custom-marker .marker-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-marker .marker-head {
+  position: absolute;
+  top: -12px; /* Position the number above the marker */
+  background-color: #ff5722; /* Circle background color */
+  color: white;
+  border-radius: 50%;
+  width: 20px; /* Size of the circle */
+  height: 20px; /* Size of the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #fff; /* Optional border for contrast */
+}
+
+.custom-marker .marker-body {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #ff5722; /* Marker color */
+}

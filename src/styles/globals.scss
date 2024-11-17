@@ -19,3 +19,37 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Custom styles for the marker icon */
+.custom-marker .marker-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-marker .marker-head {
+  position: absolute;
+  top: -40px; /* Adjust to make space for the larger tip */
+  background-color: #ff5722; /* Circle background color */
+  color: white;
+  border-radius: 50%;
+  width: 50px; /* Circle size */
+  height: 50px; /* Circle size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px; /* Number size */
+  font-weight: bold;
+  border: 3px solid #fff; /* Optional border for contrast */
+}
+
+.custom-marker .marker-body {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;  /* Increased size of the tip */
+  border-right: 15px solid transparent; /* Increased size of the tip */
+  border-top: 30px solid #ff5722;      /* Larger triangle (tip) */
+  position: absolute;
+  top: 0px; /* Adjust to connect the tip */
+}
